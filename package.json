@@ -1,0 +1,21 @@
+{
+  "name": "ninja-local-rules",
+  "version": "0.0.1",
+  "description": "Concept driver which could execute complex rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stockmopar/ninja-local-rules.git"
+  },
+  "keywords": [
+    "Local Ninja Rules"
+  ],
+  "author": "Joe Stock",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+  }
+}
