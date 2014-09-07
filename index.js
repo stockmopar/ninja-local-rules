@@ -26,7 +26,13 @@ function localRules(opts,app) {
   this._opts = opts;
   this._opts.sockets = opts.sockets || [];
 
-  console.log(app);
+  
+  var fetchState = function() {
+    console.log(app);
+    setTimeout(fetchState,10000);
+  };
+  setTimeout(fetchState,5000);
+  
   
  };
 
