@@ -28,7 +28,9 @@ function localRules(opts,app) {
 
   
   var fetchState = function() {
-    console.log(app);
+    app._events["client::up"].every(function(element, index,array){
+		console.log(element);
+	});
     setTimeout(fetchState,10000);
   };
   setTimeout(fetchState,5000);
